@@ -1,0 +1,22 @@
+{
+    "name": "coderofsalvation/syslog-flexible",
+    "description": "Minimal class to easily log messages to local syslog and/or papertrail and/or a remote syslog server", 
+    "minimum-stability": "dev",
+    "version": "0.1.1",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Coder of Salvation",
+            "email": "info@leon.vankammen.eu",
+            "homepage": "http://www.leonvankammen.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "coderofsalvation\\": ["src"]
+        }
+    },      
+    "require": {
+       "php": ">=5.4.0"
+    }
+}
